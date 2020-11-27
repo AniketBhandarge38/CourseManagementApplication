@@ -173,5 +173,36 @@ namespace EnrollCourse
 			LoginAndRegister.Closed += (s, args) => this.Close();
 			LoginAndRegister.Show();
 		}
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+			SqlConnection con = new SqlConnection(connectionstring);
+
+			try
+            {
+			
+				SqlCommand cmd = new SqlCommand("SP_Remove", con);
+				cmd.CommandType = CommandType.StoredProcedure;
+				cmd.Parameters.AddWithValue("@courseid", textBoxUsername.Text.Trim().ToString());
+				cmd.Parameters.AddWithValue("@userid",userid);
+				con.Open();
+				int nrows=cmd.ExecuteNonQuery();
+				if(nrows == 1)
+                {
+					MessageBox.Show("Deleted Successfully");
+
+                }
+				else
+                {
+					MessageBox.Show("Something Went Wrong");
+				}
+
+
+            }
+			catch(Exception ex)
+            {
+				MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

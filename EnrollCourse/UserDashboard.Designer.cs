@@ -40,10 +40,11 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dataGridViewcourses = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnavailablecourses = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.btnavailablecourses = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewcourses)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -77,9 +78,9 @@
             this.btnLoginSubmit.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLoginSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoginSubmit.ForeColor = System.Drawing.Color.Maroon;
-            this.btnLoginSubmit.Location = new System.Drawing.Point(247, 282);
+            this.btnLoginSubmit.Location = new System.Drawing.Point(204, 282);
             this.btnLoginSubmit.Name = "btnLoginSubmit";
-            this.btnLoginSubmit.Size = new System.Drawing.Size(150, 46);
+            this.btnLoginSubmit.Size = new System.Drawing.Size(99, 46);
             this.btnLoginSubmit.TabIndex = 10;
             this.btnLoginSubmit.Text = "Enroll";
             this.btnLoginSubmit.UseVisualStyleBackColor = false;
@@ -114,6 +115,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.OldLace;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.textBoxcredits);
             this.groupBox1.Controls.Add(this.label6);
@@ -136,7 +138,7 @@
             this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Maroon;
-            this.button1.Location = new System.Drawing.Point(50, 282);
+            this.button1.Location = new System.Drawing.Point(25, 282);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(145, 46);
             this.button1.TabIndex = 13;
@@ -193,6 +195,19 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "All Courses";
             // 
+            // btnavailablecourses
+            // 
+            this.btnavailablecourses.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnavailablecourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnavailablecourses.ForeColor = System.Drawing.Color.Maroon;
+            this.btnavailablecourses.Location = new System.Drawing.Point(16, 49);
+            this.btnavailablecourses.Name = "btnavailablecourses";
+            this.btnavailablecourses.Size = new System.Drawing.Size(454, 46);
+            this.btnavailablecourses.TabIndex = 14;
+            this.btnavailablecourses.Text = "Available Courses";
+            this.btnavailablecourses.UseVisualStyleBackColor = false;
+            this.btnavailablecourses.Click += new System.EventHandler(this.btnavailablecourses_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -216,19 +231,6 @@
             this.label5.Text = "label5";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
-            // btnavailablecourses
-            // 
-            this.btnavailablecourses.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnavailablecourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnavailablecourses.ForeColor = System.Drawing.Color.Maroon;
-            this.btnavailablecourses.Location = new System.Drawing.Point(16, 49);
-            this.btnavailablecourses.Name = "btnavailablecourses";
-            this.btnavailablecourses.Size = new System.Drawing.Size(454, 46);
-            this.btnavailablecourses.TabIndex = 14;
-            this.btnavailablecourses.Text = "Available Courses";
-            this.btnavailablecourses.UseVisualStyleBackColor = false;
-            this.btnavailablecourses.Click += new System.EventHandler(this.btnavailablecourses_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -241,6 +243,19 @@
             this.button2.Text = "Logout";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.Maroon;
+            this.button3.Location = new System.Drawing.Point(333, 282);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 46);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Remove";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // UserDashboard
             // 
@@ -284,5 +299,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnavailablecourses;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
