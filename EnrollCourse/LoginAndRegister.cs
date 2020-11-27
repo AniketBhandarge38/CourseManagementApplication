@@ -33,6 +33,7 @@ namespace EnrollCourse
             if (u.Equals("Admin") && p.Equals("admin123"))
             {
                 AdminDashboard ad = new AdminDashboard();
+                this.Hide();
                 ad.ShowDialog();
             }
             else
@@ -80,6 +81,8 @@ namespace EnrollCourse
                                                 int id = Convert.ToInt32(dt.Rows[0]["userid"].ToString());
                                                 UserDashboard ud = new UserDashboard();
                                                 ud.GetUserInfo(id, username);
+                                                this.Hide();
+
                                                 ud.ShowDialog();
                                                 break;
                                             }
@@ -107,6 +110,27 @@ namespace EnrollCourse
                         MessageBox.Show(ex.Message);
                     }
             }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBoxPassword.PasswordChar = checkBox1.Checked ? '\0' : '*';
+        }
+
+        private void textBoxPassword_TextChanged(object sender, EventArgs e)
+        {
+            
+           
+        }
+
+        
+
+        private void LoginAndRegister_Load(object sender, EventArgs e)
+        {
+            // Set to no text.
+            textBoxPassword.Text = "";
+            // The password character is an asterisk.
+            textBoxPassword.PasswordChar = '*';
         }
     }
 }

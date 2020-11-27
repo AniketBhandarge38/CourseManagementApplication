@@ -81,6 +81,11 @@ namespace EnrollCourse
 
         private void Register_Load(object sender, EventArgs e)
         {
+            textBoxPassword.Text = "";
+            textBoxPassword.PasswordChar = '*';
+
+            textBoxConfPassword.Text = "";
+            textBoxConfPassword.PasswordChar = '*';
 
         }
     }

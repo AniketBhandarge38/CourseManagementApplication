@@ -58,7 +58,7 @@
             this.btnLoginSubmit.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLoginSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoginSubmit.ForeColor = System.Drawing.Color.Black;
-            this.btnLoginSubmit.Location = new System.Drawing.Point(179, 324);
+            this.btnLoginSubmit.Location = new System.Drawing.Point(172, 310);
             this.btnLoginSubmit.Name = "btnLoginSubmit";
             this.btnLoginSubmit.Size = new System.Drawing.Size(127, 46);
             this.btnLoginSubmit.TabIndex = 10;
@@ -97,7 +97,7 @@
             this.label3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Maroon;
-            this.label3.Location = new System.Drawing.Point(297, 29);
+            this.label3.Location = new System.Drawing.Point(225, 27);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 29);
             this.label3.TabIndex = 15;
@@ -118,9 +118,9 @@
             this.groupBox1.Controls.Add(this.textBoxPassword);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.groupBox1.Location = new System.Drawing.Point(85, 84);
+            this.groupBox1.Location = new System.Drawing.Point(49, 84);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(525, 413);
+            this.groupBox1.Size = new System.Drawing.Size(440, 383);
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Enter Details";
@@ -166,7 +166,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(703, 550);
+            this.ClientSize = new System.Drawing.Size(558, 493);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
             this.Name = "Register";
