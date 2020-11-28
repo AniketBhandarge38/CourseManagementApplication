@@ -12,3 +12,4 @@ C:\Users\Aniket\Desktop\Sample Projects\EnrollCourse\EnrollCourse\obj\Debug\Enro
 C:\Users\Aniket\Desktop\Sample Projects\EnrollCourse\EnrollCourse\obj\Debug\EnrollCourse.AdminDashboard.resources
 C:\Users\Aniket\Desktop\Sample Projects\EnrollCourse\EnrollCourse\obj\Debug\EnrollCourse.MyCourses.resources
 C:\Users\Aniket\Desktop\Sample Projects\EnrollCourse\EnrollCourse\obj\Debug\EnrollCourse.UserDashboard.resources
+C:\Users\Aniket\Desktop\Sample Projects\EnrollCourse\EnrollCourse\obj\Debug\EnrollCourse.AdminControls.resources
