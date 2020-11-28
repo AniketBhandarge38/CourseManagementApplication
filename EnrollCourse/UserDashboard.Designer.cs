@@ -78,7 +78,7 @@
             this.btnLoginSubmit.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLoginSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoginSubmit.ForeColor = System.Drawing.Color.Maroon;
-            this.btnLoginSubmit.Location = new System.Drawing.Point(204, 282);
+            this.btnLoginSubmit.Location = new System.Drawing.Point(187, 282);
             this.btnLoginSubmit.Name = "btnLoginSubmit";
             this.btnLoginSubmit.Size = new System.Drawing.Size(99, 46);
             this.btnLoginSubmit.TabIndex = 10;
@@ -249,9 +249,9 @@
             this.button3.BackColor = System.Drawing.Color.LightSteelBlue;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Maroon;
-            this.button3.Location = new System.Drawing.Point(333, 282);
+            this.button3.Location = new System.Drawing.Point(307, 282);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 46);
+            this.button3.Size = new System.Drawing.Size(105, 46);
             this.button3.TabIndex = 14;
             this.button3.Text = "Remove";
             this.button3.UseVisualStyleBackColor = false;

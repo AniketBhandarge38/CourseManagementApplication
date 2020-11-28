@@ -51,5 +51,11 @@ namespace EnrollCourse
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AdminControls ac = new AdminControls();
+            ac.ShowDialog();
+        }
     }
 }

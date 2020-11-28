@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.textBoxCredits = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnLoginSubmit = new System.Windows.Forms.Button();
@@ -42,6 +43,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.OldLace;
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.textBoxCredits);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.btnLoginSubmit);
@@ -55,6 +57,19 @@
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Enter Course Details";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(225, 216);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 46);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "View";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBoxCredits
             // 
@@ -79,7 +94,7 @@
             this.btnLoginSubmit.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLoginSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoginSubmit.ForeColor = System.Drawing.Color.Black;
-            this.btnLoginSubmit.Location = new System.Drawing.Point(159, 220);
+            this.btnLoginSubmit.Location = new System.Drawing.Point(68, 216);
             this.btnLoginSubmit.Name = "btnLoginSubmit";
             this.btnLoginSubmit.Size = new System.Drawing.Size(127, 46);
             this.btnLoginSubmit.TabIndex = 10;
@@ -143,5 +158,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxCourse;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
